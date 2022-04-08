@@ -75,6 +75,7 @@
   }
   .heading .content {
     width: 45%;
+    margin-top: 0;
   }
 
   .gallery .card {
