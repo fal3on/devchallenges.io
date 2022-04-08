@@ -1,0 +1,25 @@
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    max-width: 40%;
+    .card_body{
+        display: flex;
+        .position{
+            font-family: var(--card-position);
+            text-transform: uppercase;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            margin-left: .2rem;
+        }
+        img{
+            overflow: hidden;
+        }
+    }
+    .card_footer{
+        font-family: var(--card-name);
+        margin-top: .6rem;
+    }
+}
