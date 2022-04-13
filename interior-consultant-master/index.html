@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Interior Consultant | Challenge</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="logo">
+        <a href="#" class="button">THIS INTERIOR</a>
+      </div>
+      <div class="burger-menu">
+        <a href="#" onclick="showMenu()"><span class="material-icons">menu</span></a>
+      </div>
+      <div class="desktop-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu">
+        <a class="close-btn" href="#" onclick="hideMenu()"><span class="material-icons">close</span></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="master">
+
+      <div class="container">
+        <div class="text-box">
+          <h1>Modern interior</h1>
+          <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+          <div class="btn">
+            <a href="#">Read more <span class="material-icons">arrow_right_alt</span></a>
+          </div>
+        </div>
+        <div class="images-box">
+          <div class="main-img">
+            <img src="./src/static/photo1.png" alt="photo_1">
+          </div>
+          <div class="overlap-card">
+            <div class="card-head">
+              <img src="./src/static/photo2.png" alt="photo_2">
+              <div class="text">
+                <h3>Aliza Webber</h3>
+                <p>Interior designer</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2>Designed in 2020 by Aliza Webber</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./src/js/menu-toggle.js"></script>
+  </body>
+</html>
