@@ -158,6 +158,7 @@ img {
   margin-top: 2.5rem;
   position: relative;
   max-width: 1000px;
+  margin-bottom: 8rem;
 }
 .images-box .overlap-card {
   background: var(--black);
@@ -229,6 +230,7 @@ img {
   }
   .container .images-box {
     margin-top: 0;
+    margin-bottom: 0;
   }
   .container .images-box .overlap-card {
     bottom: -3rem;
